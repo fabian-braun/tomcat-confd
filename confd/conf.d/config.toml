@@ -1,0 +1,6 @@
+[template]
+src = "tomcat-users.xml.tmpl"
+dest = "/usr/local/tomcat/conf/tomcat-users.xml"
+keys = [
+    "/tomcat/manager/password",
+]
